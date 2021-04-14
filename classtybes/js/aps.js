@@ -183,25 +183,25 @@ qus5 = prompt('Please choose one of the following answers!', 'Jordan or Saudi Ar
 // }
 
 
-let i = 0
+let i = 0;
 let qus8 = prompt('what the result for: 7*5= have 4 attempt to get answer', '35 25 45 34');
 for (i = 0; i < 3; i++) {
-  if (qus8 == '25') {
+  if (qus8 === '25') {
     qus8 = prompt('Too low but try Again : 7*5= ', '35 25 45 34');
   }
-  if (qus8 == '45') {
+  if (qus8 === '45') {
     qus8 = prompt('Too low but try Again : 7*5= ', '35 25 45 34');
   }
-  if (qus8 == '34') {
+  if (qus8 === '34') {
     qus8 = prompt('Too high but try Again : 7*5= ', '35 25 45 34');
-  } 
+  }
 }
-if (qus8 == '35') {
+if (qus8 === '35') {
   alert('Raight Answer');
 } else {
   while (qus8 !== '35' && qus8 !== '45' && qus8 !== '34' && qus8 !== '25' ){
-  qus8 = prompt('please choose one option fom there what the result for: 7*5=', '35 25 45 34');
-}
+    qus8 = prompt('please choose one option fom there what the result for: 7*5=', '35 25 45 34');
+  }
 }
 
 // let qus9 = ['Mohammad', 'Moahmoud','Ali','Khalid','Yaser']
@@ -225,7 +225,15 @@ if (qus9 === 'Moahmoud') {
 } else {
   while (qus9 !== 'Mohammad' && qus9 !== 'Moahmoud'){
     qus9 = prompt('please choose one option fom there , what the Name It starts with the letter:M', 'Mohammad Moahmoud Ali Khalid Yaser');
-}
+  }
 }
 
+const userID = function(name,age){
+  name = prompt('Enter you\'r name');
+  age = prompt('Enter you\'r age');
+  console.log( name,age );
+  alert( name + age );
+  return (name+age);
+};
 
+userID('Mohammad',27);
