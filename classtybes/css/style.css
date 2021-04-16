@@ -21,6 +21,7 @@ header{
     width: 100px;
     display: block;
     margin: 20px auto;
+    position: sticky;
 }   
 main ul{
     font-size: 20px;
@@ -37,6 +38,30 @@ main ul li:nth-child(even) {
     color: #7b113a;
     font-weight: 400;
     }
+    main div {
+   height: 20px;
+   width: 170px;
+    }
+    div:nth-child(2) {
+        position: relative;
+        left: 10pxs;
+        top: 20px;
+    } 
+    
+div:nth-child(4) {
+    position: fixed;
+    bottom: 30px;
+    right: 10pxs;
+} 
+div:nth-child(1) {
+    position: sticky;
+    top: auto;
+    left: 10pxs;
+} 
+div:nth-child(3) {
+    position: absolute;
+    right:10pxs;
+} 
 footer{
     text-align: center;
 
