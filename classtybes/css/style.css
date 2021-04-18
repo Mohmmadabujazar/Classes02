@@ -48,10 +48,11 @@ main ul li:nth-child(even) {
         top: 20px;
     } 
     
-div:nth-child(4) {
+#gg :nth-child(4){
     position: fixed;
     bottom: 30px;
     right: 10pxs;
+    color: #ce1212;
 } 
 div:nth-child(1) {
     position: sticky;
