@@ -51,6 +51,46 @@ while (qus4 !== 'yes' && qus4 !== 'no' && qus4 !== 'y' && qus4 !== 'n') {
 console.log(qus4);
 alert('its my city , I live there >> OK');
 
+<<<<<<< HEAD
+=======
+// let qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+// if (qus8 == '25') {
+//   qus8 = prompt('Too low : 7*5= ', '35 25 45 34');
+// } else if (qus8 == '45') {
+//   qus8 = prompt('Too low : 7*5= ', '35 25 45 34');
+// } else if (qus8 == '34') {
+//   qus8 = prompt('Too high : 7*5= ', '35 25 45 34');
+// } else {
+//   while (qus8 !== '35') {
+//   qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+// //   }
+// // }
+// // if (qus8 =='35') {
+// //   alert('right answer');
+// // } else if (qus8 =='25'){
+// // alert('Too low');
+// // } else if (qus8 =='45'){
+// // alert('Too low');
+// // } else if (qus8 =='34'){
+// //   alert('Too high');
+// }
+
+// let qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+// while (qus8 !== '35') {
+//   qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+//   if (qus8 === '25') {
+//     qus8 = prompt('Too low but try Again : 7*5= ', '35 25 45 34');
+//   }
+//   if (qus8 === '45') {
+//     qus8 = prompt('Too low but try Again : 7*5= ', '35 25 45 34');
+//   }
+//   if (qus8 === '34') {
+//     qus8 = prompt('Too high but try Again : 7*5= ', '35 25 45 34');
+//   }
+// }
+
+
+>>>>>>> fb0c3877982ce14c05181cc69de017dcaaf80a60
 let i = 0;
 let qus8 = prompt('what the result for: 7*5= have 4 attempt to get answer', '35 25 45 34');
 for (i = 0; i < 3; i++) {
@@ -93,3 +133,16 @@ if (qus9 === 'Moahmoud') {
     qus9 = prompt('please choose one option fom there , what the Name It starts with the letter:M', 'Mohammad Moahmoud Ali Khalid Yaser');
   }
 }
+<<<<<<< HEAD
+=======
+
+const userID = function(name,age){
+  name = prompt('Enter you\'r name');
+  age = prompt('Enter you\'r age');
+  console.log( name,age );
+  alert( name + age );
+  return (name+age);
+};
+
+userID('Mohammad',27);
+>>>>>>> fb0c3877982ce14c05181cc69de017dcaaf80a60
