@@ -300,3 +300,41 @@ qus5 = prompt('Please choose one of the following answers!', 'Jordan or Saudi Ar
 //   }
 // }
 
+
+// let qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+// if (qus8 == '25') {
+//   qus8 = prompt('Too low : 7*5= ', '35 25 45 34');
+// } else if (qus8 == '45') {
+//   qus8 = prompt('Too low : 7*5= ', '35 25 45 34');
+// } else if (qus8 == '34') {
+//   qus8 = prompt('Too high : 7*5= ', '35 25 45 34');
+// } else {
+//   while (qus8 !== '35') {
+//   qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+// //   }
+// // }
+// // if (qus8 =='35') {
+// //   alert('right answer');
+// // } else if (qus8 =='25'){
+// // alert('Too low');
+// // } else if (qus8 =='45'){
+// // alert('Too low');
+// // } else if (qus8 =='34'){
+// //   alert('Too high');
+// }
+
+// let qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+// while (qus8 !== '35') {
+//   qus8 = prompt('what the result : 7*5= ', '35 25 45 34');
+//   if (qus8 === '25') {
+//     qus8 = prompt('Too low but try Again : 7*5= ', '35 25 45 34');
+//   }
+//   if (qus8 === '45') {
+//     qus8 = prompt('Too low but try Again : 7*5= ', '35 25 45 34');
+//   }
+//   if (qus8 === '34') {
+//     qus8 = prompt('Too high but try Again : 7*5= ', '35 25 45 34');
+//   }
+// }
+
+

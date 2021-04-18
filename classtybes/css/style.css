@@ -38,30 +38,31 @@ main ul li:nth-child(even) {
     color: #7b113a;
     font-weight: 400;
     }
-    main div {
+    main #gg {
    height: 20px;
    width: 170px;
     }
-    div:nth-child(2) {
+    #gg :nth-child(2){
         position: relative;
         left: 10pxs;
         top: 20px;
     } 
     
-#gg :nth-child(4){
+   #gg :nth-child(4){
     position: fixed;
-    bottom: 30px;
-    right: 10pxs;
-    color: #ce1212;
+    top: 30px;
+    right:70px;
+    color: #222;
 } 
-div:nth-child(1) {
+   #gg :nth-child(1){
     position: sticky;
-    top: auto;
     left: 10pxs;
+    top: 20px;
 } 
-div:nth-child(3) {
+   #gg :nth-child(3){
     position: absolute;
     right:10pxs;
+    top: 20pxs;
 } 
 footer{
     text-align: center;
